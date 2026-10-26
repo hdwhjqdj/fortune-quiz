@@ -322,48 +322,51 @@ var CONFIG = {
 /* 8 题：4 维各 1 题 + 表达倾向 4 题 */
 var QUESTIONS = [
   /* habit */
-  { text:"每月生活费发下来，你通常会：", options:[
-    { text:"先存 20-30%，花剩下的", score:2 },
-    { text:"花到月底，能剩多少算多少", score:1 },
-    { text:"有多少花多少，月光也无所谓", score:0 }
+  { text:"钱包里突然多了一笔钱（比如多领的兼职报酬），你会怎么处理？", options:[
+    { text:"按惯例分配好不同用途，先放一部分到'不会动'的地方", score:2 },
+    { text:"大致规划一下，想到什么买什么也不心疼", score:1 },
+    { text:"先把惦记很久的东西拿下，剩下的再说", score:0 }
   ]},
   /* opport */
-  { text:"刷到有人靠小红书接广告月入过万，你会：", options:[
-    { text:"收藏研究，试试能不能从自己的爱好入手", score:2 },
-    { text:"羡慕一下，然后继续刷", score:1 },
-    { text:"觉得是别人的事，跟我没关系", score:0 }
+  { text:"刷到一条陌生人的赚钱分享帖，你通常怎么处理？", options:[
+    { text:"看完会想想'我有没有类似的可以试试'", score:2 },
+    { text:"羡慕一下就划走了", score:1 },
+    { text:"基本不怎么点进去看", score:0 }
   ]},
   /* risk */
-  { text:"如果一个项目有 50% 概率赚 3000，50% 概率亏 1000，你会：", options:[
-    { text:"敢试，盈亏比合适", score:2 },
-    { text:"犹豫，但可能会试试", score:1 },
-    { text:"不冒这个险", score:0 }
+  { text:"有件事一半概率赚一笔，一半概率亏一小笔，你会？", options:[
+    { text:"算一下值不值，觉得合理就做", score:2 },
+    { text:"犹豫一阵子，可能最后还是不做", score:1 },
+    { text:"不做，不想承担风险", score:0 }
   ]},
   /* action */
-  { text:"想到一个赚钱的小点子后，你通常：", options:[
-    { text:"当天就动手做一个最小版本", score:2 },
-    { text:"想一周再说", score:1 },
-    { text:"想想就算了", score:0 }
+  { text:"脑海里冒出一个小想法后，你的惯性反应是？", options:[
+    { text:"当天就动手做个最小版本试试", score:2 },
+    { text:"先放一放，想清楚再说", score:1 },
+    { text:"想想就算了，不会真的去做", score:0 }
   ]},
-  /* expr */
-  { text:"你觉得自己「有赚钱的潜力但还没发挥」吗？", options:[
-    { text:"是，我知道自己可以", score:2 },
-    { text:"可能是吧", score:1 },
-    { text:"不太觉得", score:0 }
+  /* expr 1 */
+  { text:"夜深人静时，你对自己的'赚钱潜能'怎么看？", options:[
+    { text:"是有的，而且知道往哪走", score:2 },
+    { text:"可能有吧，但不确定", score:1 },
+    { text:"没怎么想过这个问题", score:0 }
   ]},
-  { text:"你对「什么时候能发财」的态度是：", options:[
-    { text:"我在创造条件，它会来", score:2 },
-    { text:"等机会吧", score:1 },
-    { text:"随缘，不强求", score:0 }
+  /* expr 2 */
+  { text:"关于'赚到钱'这件事，你的基本心态是？", options:[
+    { text:"在有意识地往那个方向走", score:2 },
+    { text:"时机到了自然会来", score:1 },
+    { text:"不着急，也不强求", score:0 }
   ]},
-  { text:"别人说「你不像会赚钱的人」，你会：", options:[
-    { text:"不服气，暗自发力", score:2 },
-    { text:"有点被戳中", score:1 },
-    { text:"无所谓，我开心最重要", score:0 }
+  /* expr 3 */
+  { text:"有人说'你一看就不是那种会赚钱的人'，你会？", options:[
+    { text:"心里不服，想证明一下", score:2 },
+    { text:"有点被说中了的感觉", score:1 },
+    { text:"无所谓，我又不是为了这个活", score:0 }
   ]},
-  { text:"对于赚钱，你觉得自己还缺什么？", options:[
-    { text:"一个明确的方向 + 行动力", score:2 },
-    { text:"运气和机会", score:1 },
+  /* expr 4 */
+  { text:"扪心自问，你和'赚到钱'之间最缺的是？", options:[
+    { text:"一个明确的方向 + 动手去做", score:2 },
+    { text:"运气和合适的机会", score:1 },
     { text:"可能什么都不缺，只是不想太拼", score:0 }
   ]}
 ];
