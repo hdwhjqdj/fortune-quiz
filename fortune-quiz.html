@@ -324,101 +324,101 @@ var CONFIG = {
 /* ---------------- 题库 ---------------- */
 var QUESTIONS = [
   /* 维度1：赚钱习惯 habit (3题) */
-  { dim:"habit", axis:"b", text:"每月生活费发下来，你通常会：", options:[
-    { text:"先存 20-30%，花剩下的", score:2 },
-    { text:"花到月底，能剩多少算多少", score:1 },
-    { text:"有多少花多少，月光也无所谓", score:0 }
+  { dim:"habit", axis:"b", text:"钱包里突然多了一笔钱（比如多领的兼职报酬），你会怎么处理？", options:[
+    { text:"按惯例分配好不同用途，先放一部分到'不会动'的地方", score:2 },
+    { text:"大致规划一下，想到什么买什么也不心疼", score:1 },
+    { text:"先把惦记很久的东西拿下，剩下的再说", score:0 }
   ]},
-  { dim:"habit", axis:"b", text:"你有记账或追踪支出的习惯吗？", options:[
-    { text:"有，知道钱花在哪了", score:2 },
-    { text:"偶尔记一下，但坚持不了", score:1 },
-    { text:"从不记，没概念", score:0 }
+  { dim:"habit", axis:"b", text:"你对自己的钱花在哪这件事了解多少？", options:[
+    { text:"大致有数，偶尔会特意核对一下", score:2 },
+    { text:"有个模糊感觉，知道大概流向", score:1 },
+    { text:"不太想这个问题，花出去了就花了", score:0 }
   ]},
-  { dim:"habit", axis:"b", text:"收到一笔意外之财（比如压岁钱、稿费），你会：", options:[
-    { text:"大部分存起来或投资自己", score:2 },
-    { text:"一半存一半花", score:1 },
-    { text:"立刻买种草很久的东西", score:0 }
+  { dim:"habit", axis:"b", text:"假设你突然中了一笔小奖（两千块那种），第一反应是？", options:[
+    { text:"把它归到某个长期目标里", score:2 },
+    { text:"先存一半，剩下的买点好东西犒劳自己", score:1 },
+    { text:"立刻清空购物车里躺了很久的东西", score:0 }
   ]},
   /* 维度2：机会感知 opport (3题) */
-  { dim:"opport", axis:"b", text:"刷到有人靠小红书接广告月入过万，你会：", options:[
-    { text:"收藏研究，试试能不能从自己的爱好入手", score:2 },
-    { text:"羡慕一下，然后继续刷", score:1 },
-    { text:"觉得是别人的事，跟我没关系", score:0 }
+  { dim:"opport", axis:"b", text:"刷到一条陌生人的赚钱分享帖，你通常怎么处理？", options:[
+    { text:"看完会想想'我有没有类似的可以试试'", score:2 },
+    { text:"羡慕一下就划走了", score:1 },
+    { text:"基本不怎么点进去看", score:0 }
   ]},
-  { dim:"opport", axis:"b", text:"同学/朋友找你一起搞副业（比如代拍、剪辑），你会：", options:[
-    { text:"问清楚怎么赚，试干一周看看", score:2 },
-    { text:"答应但不太上心", score:1 },
-    { text:"婉拒，不想浪费时间", score:0 }
+  { dim:"opport", axis:"b", text:"朋友拉你入伙一个他正在试的小项目，你会？", options:[
+    { text:"问清楚模式和预期，先试一小段时间", score:2 },
+    { text:"口头答应着，实际没太当回事", score:1 },
+    { text:"先算了吧，不想额外花精力", score:0 }
   ]},
-  { dim:"opport", axis:"b", text:"看到一个没人注意但有需求的小痛点，你会：", options:[
-    { text:"记下来，琢磨能不能做成小生意", score:2 },
-    { text:"觉得有意思但没想太深", score:1 },
-    { text:"完全没注意到", score:0 }
+  { dim:"opport", axis:"b", text:"生活中发现一个小麻烦（比如取快递排队太久），你会？", options:[
+    { text:"留意一下有没有人在从中找到机会", score:2 },
+    { text:"觉得是个有趣的现象，但不会多想", score:1 },
+    { text:"完全没注意到这层面", score:0 }
   ]},
   /* 维度3：风险 risk (3题) */
-  { dim:"risk", axis:"b", text:"如果一个项目有 50% 概率赚 3000，50% 概率亏 1000，你会：", options:[
-    { text:"敢试，盈亏比合适", score:2 },
-    { text:"犹豫，但可能会试试", score:1 },
-    { text:"不冒这个险", score:0 }
+  { dim:"risk", axis:"b", text:"有件事一半概率赚一笔，一半概率亏一小笔，你会？", options:[
+    { text:"算一下值不值，觉得合理就做", score:2 },
+    { text:"犹豫一阵子，可能最后还是不做", score:1 },
+    { text:"不做，不想承担风险", score:0 }
   ]},
-  { dim:"risk", axis:"b", text:"有人拉你一起拼单/入伙做小生意，你会：", options:[
-    { text:"认真评估，有把握就参与", score:2 },
-    { text:"朋友说靠谱就跟着", score:1 },
-    { text:"怕亏钱，一律不参与", score:0 }
+  { dim:"risk", axis:"b", text:"合伙人找你一起投点小钱试试，你会？", options:[
+    { text:"先搞清楚钱去哪了、谁在管", score:2 },
+    { text:"如果朋友说靠谱，就跟着投一点", score:1 },
+    { text:"不参与任何需要掏钱的事", score:0 }
   ]},
-  { dim:"risk", axis:"b", text:"你敢借钱来尝试一个赚钱机会吗？", options:[
-    { text:"如果看好，会考虑", score:2 },
-    { text:"只敢用自己闲钱", score:1 },
-    { text:"绝对不借钱", score:0 }
+  { dim:"risk", axis:"b", text:"为了做一件你觉得值得的事，借钱这件事对你来说？", options:[
+    { text:"条件合适的话可以接受", score:2 },
+    { text:"只用自己手里有的钱", score:1 },
+    { text:"绝对不考虑借钱", score:0 }
   ]},
   /* 维度4：行动力 action (3题) */
-  { dim:"action", axis:"b", text:"想到一个赚钱的小点子后，你通常：", options:[
-    { text:"当天就动手做一个最小版本", score:2 },
-    { text:"想一周再说", score:1 },
-    { text:"想想就算了", score:0 }
+  { dim:"action", axis:"b", text:"脑海里冒出一个小想法后，你的惯性反应是？", options:[
+    { text:"当天就动手做个最小版本试试", score:2 },
+    { text:"先放一放，想清楚再说", score:1 },
+    { text:"想想就算了，不会真的去做", score:0 }
   ]},
-  { dim:"action", axis:"b", text:"你开始过几件和赚钱相关的事（哪怕很小）？", options:[
-    { text:"3 件以上，不管成没成", score:2 },
-    { text:"1-2 件", score:1 },
-    { text:"从来没开始过", score:0 }
+  { dim:"action", axis:"b", text:"除了正经工作/上学，你启动过几件和赚钱有关的事？", options:[
+    { text:"至少做过几件，不管成没成", score:2 },
+    { text:"尝试过一两件", score:1 },
+    { text:"从来没正式开始过", score:0 }
   ]},
-  { dim:"action", axis:"b", text:"做一件事没赚到钱，你会：", options:[
-    { text:"复盘原因，换个方向继续", score:2 },
-    { text:"有点灰心，但可能再试一次", score:1 },
-    { text:"算了，放弃", score:0 }
+  { dim:"action", axis:"b", text:"花了时间但没赚到钱，你怎么处理？", options:[
+    { text:"复盘一下，换个方式再试", score:2 },
+    { text:"有点打击，但可能再试一次", score:1 },
+    { text:"算了，放弃了", score:0 }
   ]},
   /* 表达倾向 6 题 */
-  { dim:null, axis:"e", text:"你觉得自己「有赚钱的潜力但还没发挥」吗？", options:[
-    { text:"是，我知道自己可以", score:2 },
-    { text:"可能是吧", score:1 },
-    { text:"不太觉得", score:0 }
+  { dim:null, axis:"e", text:"夜深人静时，你对自己的'赚钱潜能'怎么看？", options:[
+    { text:"是有的，而且知道往哪走", score:2 },
+    { text:"可能有吧，但不确定", score:1 },
+    { text:"没怎么想过这个问题", score:0 }
   ]},
-  { dim:null, axis:"e", text:"谈到钱的时候，你通常：", options:[
-    { text:"大方聊，包括自己的想法", score:2 },
-    { text:"避而不谈或只聊表面", score:1 },
-    { text:"觉得谈钱很俗", score:0 }
+  { dim:null, axis:"e", text:"朋友之间聊到钱，你通常的反应是？", options:[
+    { text:"自然聊，包括自己的看法", score:2 },
+    { text:"不太聊深，点到为止", score:1 },
+    { text:"觉得钱的话题没那么重要", score:0 }
   ]},
-  { dim:null, axis:"e", text:"你对「什么时候能发财」的态度是：", options:[
-    { text:"我在创造条件，它会来", score:2 },
-    { text:"等机会吧", score:1 },
-    { text:"随缘，不强求", score:0 }
+  { dim:null, axis:"e", text:"关于'赚到钱'这件事，你的基本心态是？", options:[
+    { text:"在有意识地往那个方向走", score:2 },
+    { text:"时机到了自然会来", score:1 },
+    { text:"不着急，也不强求", score:0 }
   ]},
-  { dim:null, axis:"e", text:"你更害怕哪种情况？", options:[
-    { text:"老了还没赚够钱", score:2 },
-    { text:"现在太累了", score:0 },
-    { text:"都还好", score:1 }
+  { dim:null, axis:"e", text:"以下哪种状态让你更焦虑？", options:[
+    { text:"年纪渐长但手里没攒下东西", score:2 },
+    { text:"现在过得太累了", score:0 },
+    { text:"都还好，没想太多", score:1 }
   ]},
-  { dim:null, axis:"e", text:"别人说「你不像会赚钱的人」，你会：", options:[
-    { text:"不服气，暗自发力", score:2 },
-    { text:"有点被戳中", score:1 },
-    { text:"无所谓，我开心最重要", score:0 }
+  { dim:null, axis:"e", text:"有人说'你一看就不是那种会赚钱的人'，你会？", options:[
+    { text:"心里不服，想证明一下", score:2 },
+    { text:"有点被说中了的感觉", score:1 },
+    { text:"无所谓，我又不是为了这个活", score:0 }
   ]},
-  { dim:null, axis:"e", text:"对于赚钱，你觉得自己还缺什么？", options:[
-    { text:"一个明确的方向 + 行动力", score:2 },
-    { text:"运气和机会", score:1 },
+  { dim:null, axis:"e", text:"扪心自问，你和'赚到钱'之间最缺的是？", options:[
+    { text:"一个明确的方向 + 动手去做", score:2 },
+    { text:"运气和合适的机会", score:1 },
     { text:"可能什么都不缺，只是不想太拼", score:0 }
   ]}
-];
+];;
 
 /* ---------------- 四型文案 ---------------- */
 var TYPES = {
